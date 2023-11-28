@@ -1,10 +1,10 @@
 import React from 'react'
-import "./ReImagening.css"
 import circle from "../../assets/circle.png"
 import triangle from "../../assets/triangle.png"
 import circlestar from "../../assets/circlestar.png"
 import KickStart from '../kickstart/KickStart'
 import Improve from '../improve/Improve'
+import "./ReImage.css"
 
 const ReImagening = () => {
     return (
