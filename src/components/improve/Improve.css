@@ -1,0 +1,91 @@
+.improve-container {
+    padding: 0.3rem 0.5rem;
+}
+
+.improve-container h3 {
+    color: rgba(39, 45, 56, 1);
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.improve-container .sub-head {
+    color: rgba(39, 45, 56, 1);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.improve-container .ad-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.improve-container .ad-container .ad-box {
+    width: 360px;
+    border: 2px solid rgb(211, 213, 214);
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.improve-container .ad-container .ad-box h4 {
+    margin: 0.4rem 0;
+    font-size: 0.85rem;
+    line-height: 1.3;
+}
+
+.improve-container .ad-container .ad-box p {
+    margin: 0.5rem 0;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.improve-container .ad-container .ad-box .duration-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+
+.improve-container .ad-container .ad-box .duration-box .price {
+    font-size: 0.6rem;
+    background-color: rgba(113, 168, 148, 1);
+    border-radius: 10px;
+    padding: 5px 8px;
+    color: #fff;
+}
+
+.improve-container .ad-container .ad-box .duration-box .date {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.improve-container .button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.improve-container .button-wrapper button {
+    color: #fff;
+    background-color: black;
+    font-size: 0.65rem;
+    padding: 0.7rem 0.9rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
