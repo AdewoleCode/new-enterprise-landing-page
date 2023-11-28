@@ -4,8 +4,8 @@ import circlePlay from "./kickstartAssets/circleplay.png"
 import circleecho from "./kickstartAssets/circleecho.png"
 import circlesphere from "./kickstartAssets/circlesphere.png"
 import memberWidget from "./kickstartAssets/MembersWidget.png"
-import proposalWidget from "./kickstartAssets/proposalWidget.png"
-import illustration from "./kickstartAssets/illustration.png"
+import proposalWidget from "./kickstartAssets/ProposalWidget.png"
+import illustration from "./kickstartAssets/Illustration.png"
 
 const KickStart = () => {
     return (
