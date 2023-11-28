@@ -1,11 +1,11 @@
 import React from 'react'
 import "./KickStart.css"
-import circlePlay from "../../assets/circlePlay.png"
-import circleecho from "../../assets/circleecho.png"
-import circlesphere from "../../assets/circlesphere.png"
-import memberWidget from "../../assets/MembersWidget.png"
-import proposalWidget from "../../assets/proposalWidget.png"
-import illustration from "../../assets/illustration.png"
+import circlePlay from "./kickstartAssets/circleplay.png"
+import circleecho from "./kickstartAssets/circleecho.png"
+import circlesphere from "./kickstartAssets/circlesphere.png"
+import memberWidget from "./kickstartAssets/MembersWidget.png"
+import proposalWidget from "./kickstartAssets/proposalWidget.png"
+import illustration from "./kickstartAssets/illustration.png"
 
 const KickStart = () => {
     return (
