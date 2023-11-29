@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
-// import { FaTimes } from "react-icons/fa"
-// import { FaBars } from "react-icons/fa"
+import { FaTimes } from "react-icons/fa"
+import { FaBars } from "react-icons/fa"
 import "./NavigationBar.css"
 import { useRef } from 'react';
 import Logo from "../../assets/logo.png"
@@ -39,7 +39,7 @@ const NavigationBar = () => {
                         className="nav-btn nav-close-btn"
                         onClick={showNavbar}
                     >
-                        {/* <FaTimes /> */}
+                        <FaTimes />
                     </button>
                     {/* mobile close btn */}
                 </nav>
@@ -48,7 +48,7 @@ const NavigationBar = () => {
                 <button className="nav-btn"
                     onClick={showNavbar}
                 >
-                    {/* <FaBars /> */}
+                    <FaBars />
                 </button>
 
             </header>
