@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0 1.5rem;
 }
 
@@ -52,3 +53,42 @@
     font-size: 0.7rem;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 750px) {
+    .startEnterprise-container .left {
+        flex-basis: 85%;
+    }
+
+    .startEnterprise-container .left h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .startEnterprise-container .left p {
+        text-align: center;
+    }
+
+    .startEnterprise-container .left .button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .startEnterprise-container .left .button-wrapper button {
+        width: 190px;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .startEnterprise-container .right {
+        flex-shrink: 95%;
+    }
+
+    .startEnterprise-container .right img {
+        width: 370px;
+        height: 350px;
+        object-fit: contain;
+    }
+
+}
+

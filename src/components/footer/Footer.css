@@ -1,15 +1,15 @@
-
 .footer-container {
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1rem 3rem;
 }
 
 .footer-container h3 {
-font-size: 0.8rem;
-color: rgba(39, 45, 56, 1);
+    font-size: 0.8rem;
+    color: rgba(39, 45, 56, 1);
 }
 
 .footer-container ul {
@@ -28,4 +28,18 @@ color: rgba(39, 45, 56, 1);
 
 .footer-container ul li:hover {
     color: rgba(113, 168, 148, 1);
+}
+
+@media only screen and (max-width: 750px) {
+    .footer-container  {
+        padding: 1rem 1rem;
+        text-align: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer-container ul {
+        gap: 0.7rem;
+
+    }
 }

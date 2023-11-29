@@ -1,4 +1,3 @@
-
 .kickstart-boxItem {
     display: flex;
     justify-content: center;
@@ -40,14 +39,15 @@
     height: 400px;
 }
 
-.kickstart-boxItem.two{
+.kickstart-boxItem.two {
     flex-direction: row-reverse;
 }
 
 .kickstart-boxItem.third .right {
     flex-basis: 42%;
 }
-.kickstart-boxItem.third .left{
+
+.kickstart-boxItem.third .left {
     flex-basis: 40%;
 }
 
@@ -55,4 +55,45 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+@media only screen and (max-width: 750px) {
+    .kickstart-boxItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .kickstart-boxItem .left {
+        flex-basis: 80%;
+        padding: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kickstart-boxItem .left h3 {
+        text-align: center;
+    }
+
+    .kickstart-boxItem .left p {
+        text-align: center;
+    }
+
+    .kickstart-boxItem .right img {
+        width: 100%;
+        margin: 0 auto;
+        height: 380px;
+    }
+
+    .kickstart-boxItem.third .left {
+        flex-basis: 80%;
+    }
+
+    .kickstart-boxItem.third .right {
+        flex-basis: 80%;
+    }
 }

@@ -22,6 +22,7 @@
 .reImagining-container .ad-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 3rem;
 }
@@ -35,7 +36,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .reImagining-container .ad-container .ad-box img {
@@ -54,4 +54,12 @@
     margin: 0;
     font-size: 0.7rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .reImagining-container .sub-head {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 95%;
+    }
 }
